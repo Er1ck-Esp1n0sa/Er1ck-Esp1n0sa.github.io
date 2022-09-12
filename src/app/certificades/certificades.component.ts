@@ -7,9 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CertificadesComponent implements OnInit {
 
+  certificado : Array<any> = [];
+
   constructor() { }
 
   ngOnInit(): void {
-  }
+
+    let cert1 = {
+      Nom_cert : "Certificado del uso de la paqweuteria de Microsoft",
+      Des_cert : [
+        {Descripccion : "El usuario mediante un examen por el cual uso tosa la paqueteria de office, demostro ser competente para su manejo"}
+      ]
+};
+
+this.certificado.push(cert1);
+}
 
 }
