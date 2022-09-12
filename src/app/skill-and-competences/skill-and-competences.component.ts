@@ -37,12 +37,34 @@ let hb4 = {
   ]
 };
 
+let hb5 = {
+  Nom_skill : "Habilidad con HTML",
+  Des_skill : [
+    {Descripccion : "✨✨✨"}
+  ]
+};
 
+let hb6 = {
+  Nom_skill : "Habilidad con SQL",
+  Des_skill : [
+    {Descripccion : "✨✨✨"}
+  ]
+};
+
+let hb7 = {
+  Nom_skill : "Habilidad con C++",
+  Des_skill : [
+    {Descripccion : "✨✨✨"}
+  ]
+};
 
 this.skill_c.push(hb1);
 this.skill_c.push(hb2);
 this.skill_c.push(hb3);
 this.skill_c.push(hb4);
+this.skill_c.push(hb5);
+this.skill_c.push(hb6);
+this.skill_c.push(hb7);
   }
 
 }
